@@ -391,7 +391,41 @@
     <svg class="close-svg">
       <use href="./sprite/sprite.svg#closed"></use>
     </svg>
-    </button>  
+    </button> 
+    <h2 class="modal-header">Оставьте свои данные, мы вам перезвоним</h2>
+    <form class="form">
+      <label  class="label-name">
+        Имя
+        <div class="field">
+        <input class="inp-name input-modal" type="text" name="name" >
+        <svg class="icon-modal">
+          <use href="./sprite/sprite.svg#person"></use>
+        </svg>
+        </div>
+      </label>
+      <label class="label-tel">
+        Телефон
+        <div class="field">
+        <input class="inp-tel input-modal" type="tel" name="telephone" >
+      <svg class="icon-modal">
+        <use href="./sprite/sprite.svg#phone-modal"></use>
+      </svg>
+      </div>
+      </label>
+      <label class="label-mail">
+        Почта
+        <div class="field">
+        <input class="inp-mail input-modal" type="email" name="email">
+      <svg class="icon-modal">
+        <use href="./sprite/sprite.svg#email"></use>
+      </svg>
+      </div>
+      </label>
+      <label for="comment" class="label-comment">Комментарий</label>
+      <textarea name="comment" id="comment" cols="30" rows="10" class="inp-comment" placeholder=" Введите текст"></textarea>
+      <input type="checkbox" id="check">
+      <label for="check" class="label-check">Соглашаюсь с рассылкой и принимаю <a class="link-check">Условия договора</a></label>
+    </form>
   </div>
 </div>
 
