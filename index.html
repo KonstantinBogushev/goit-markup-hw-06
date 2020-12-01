@@ -387,7 +387,7 @@
 
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
-    <button class="close-btn" data-modal-close>
+    <button  class="close-btn" data-modal-close>
     <svg class="close-svg">
       <use href="./sprite/sprite.svg#closed"></use>
     </svg>
@@ -401,7 +401,7 @@
         <svg class="icon-modal">
           <use href="./sprite/sprite.svg#person"></use>
         </svg>
-       
+      <div class="inp-border"></div>
       </label>
       <label class="label-tel field">
         Телефон
@@ -410,7 +410,7 @@
       <svg class="icon-modal">
         <use href="./sprite/sprite.svg#phone-modal"></use>
       </svg>
-     
+    <div class="inp-border"></div>
       </label>
       <label class="label-mail field">
         Почта
@@ -424,8 +424,11 @@
       </label>
       <label for="comment" class="label-comment">Комментарий</label>
       <textarea name="comment" id="comment" cols="30" rows="10" class="inp-comment" placeholder=" Введите текст"></textarea>
-      <input type="checkbox" id="check">
+      <input type="checkbox" id="check" class="inp-check">
+      <span class="icon-check"></span>
       <label for="check" class="label-check">Соглашаюсь с рассылкой и принимаю <a class="link-check">Условия договора</a></label>
+   
+      <button type="submit" class="btm-one btn-form"> <span class="btm-one-text">Отправить</span></button>
     </form>
   </div>
 </div>
