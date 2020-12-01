@@ -744,6 +744,11 @@ img {
   height: 11px;
 }
 
+.close-btn:hover ~ .close-svg,
+.close-btn:focus ~ .close-svg {
+  fill: var(--blue);
+}
+
 .modal-header {
   margin: 40px 40px 12px 40px;
   font-family: Roboto;
@@ -850,6 +855,16 @@ img {
   fill: var(--blue);
 }
 
+.link-check {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.label-check {
+  display: inline-flex;
+  align-items: center;
+}
+
 .inp-check {
   position: absolute;
   width: 1px;
@@ -865,15 +880,19 @@ img {
   display: inline-flex;
   width: 16px;
   height: 15px;
-  border: 1px solid var(--black);
-  border-radius: 1px;
+  border: 2px solid var(--black);
+  border-radius: 4px;
 }
 
-.label-check:checked ~ .icon-check {
-  background-image: url(./image/icon-check.svg);
+.inp-check:checked + .icon-check {
   background-color: var(--blue);
+  border-color: var(--blue);
+  background-image: url("../image/icon-check.svg");
+  background-size: contain;
+  background-origin: border-box;
 }
 
 .btn-form {
   margin-top: 30px;
 }
+
