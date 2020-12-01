@@ -857,6 +857,8 @@ img {
   margin: -1px;
   bottom: 0;
   padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .icon-check {
@@ -865,6 +867,11 @@ img {
   height: 15px;
   border: 1px solid var(--black);
   border-radius: 1px;
+}
+
+.label-check:checked ~ .icon-check {
+  background-image: url(./image/icon-check.svg);
+  background-color: var(--blue);
 }
 
 .btn-form {
