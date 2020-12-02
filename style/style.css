@@ -246,6 +246,7 @@ img {
   width: 200px;
   height: 50px;
   border: none;
+  cursor: pointer;
 }
 
 .btm-one-text {
@@ -531,6 +532,7 @@ img {
   padding: 6px 22px;
   border: 0px;
   height: 38px;
+  cursor: pointer;
 
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -542,6 +544,7 @@ img {
 .btn {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .portfolio-btn-text {
@@ -701,7 +704,7 @@ img {
 }
 
 .inp-mail-footer {
-  width: 360px;
+  width: 358px;
   height: 50px;
   background-color: var(--bcg-color);
   padding-left: 16px;
@@ -727,6 +730,9 @@ img {
   background-color: var(--blue);
   width: 200px;
   height: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .text-btn-footer {
@@ -741,6 +747,7 @@ img {
 .btn-svg {
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 
 .backdrop {
@@ -787,6 +794,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -960,4 +968,5 @@ img {
 
 .btn-form {
   margin-top: 30px;
+  cursor: pointer;
 }
